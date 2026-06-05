@@ -1,12 +1,3 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['user_logged_in'])) {
-    header("Location: applogin.php");
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
